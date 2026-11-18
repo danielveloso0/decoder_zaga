@@ -1,0 +1,38 @@
+{
+  "score": {
+    "total": 51.586442061455294,
+    "componentes": {
+      "de_score": 46.692778727864514,
+      "de_direction": 56.23487544483986,
+      "mmd_u": 48.31419719336614,
+      "variogram": 56.801346801346796
+    },
+    "metricas_brutas": {
+      "de_score": -0.1199,
+      "de_direction": 0.1752,
+      "mmd_u": 0.08914,
+      "variogram": 0.004007
+    },
+    "info": {
+      "celulas_previsao": 2000,
+      "celulas_referencia": 1706,
+      "celulas_verdade": 1249,
+      "avisos": [],
+      "pico_rss_mb": null
+    }
+  },
+  "prediction_sha256": "de82334d514dba6486c243970855f8cf7553554a7476fa1a2167c64b47c02d45",
+  "scorer_sha256": "ce5bc6a2500df816c6b46034453527b407309edcc3dba2b435040d2742efda10",
+  "core_sha256": "e06dc84ecd8723ecacb1f31a0f4deb9a8722d37ff90193a7af05e2405fefb5e9",
+  "versions": {
+    "torch": "2.5.1+cpu",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "anndata": "0.13.4",
+    "pandas": "3.0.6",
+    "h5py": "3.16.0",
+    "scikit-learn": "1.9.1"
+  },
+  "training": false,
+  "uploaded": false
+}

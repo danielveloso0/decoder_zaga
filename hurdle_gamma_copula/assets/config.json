@@ -1,0 +1,22 @@
+{
+  "n_genes": 32285,
+  "latent": 32,
+  "hidden": 64,
+  "encoder": "Linear-LayerNorm-SiLU",
+  "copula_rank": 32,
+  "copula_strength": 1.0,
+  "library_size": 10000.0,
+  "model_seed": 0,
+  "presets": [
+    "V0",
+    "V3",
+    "ot_local",
+    "ot_ridge"
+  ],
+  "asset_sha256": {
+    "decoder_state.npz": "e876eccb74eb8258bbe8bdcfddef781594d30ca1002aa3e09ba42a286301eaca",
+    "forecasts.npz": "51ddf6a0b4a5d511982802bb11fbc1c133850275e5498f53d2aef24e17f29e0b",
+    "genes.txt": "e9a68b2793b4756a900a404f9bf2f0050e9d828a21ab3524c3be3740e2b2f396",
+    "weights.pt": "1c169ac823fb60c4c01d9c9604fb784a948d9d33c973129fa1e9e93f3badbfff"
+  }
+}

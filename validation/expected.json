@@ -1,0 +1,106 @@
+{
+  "V0": {
+    "matrix_content_sha256": "310c5b4c25cce666a0392042b5fb47531b5ba7dfb104d4c459d04abe9bb21dde",
+    "score": {
+      "total": 51.586442061455294,
+      "componentes": {
+        "de_score": 46.692778727864514,
+        "de_direction": 56.23487544483986,
+        "mmd_u": 48.31419719336614,
+        "variogram": 56.801346801346796
+      },
+      "metricas_brutas": {
+        "de_score": -0.1199,
+        "de_direction": 0.1752,
+        "mmd_u": 0.08914,
+        "variogram": 0.004007
+      },
+      "info": {
+        "celulas_previsao": 2000,
+        "celulas_referencia": 1706,
+        "celulas_verdade": 1249,
+        "avisos": [],
+        "pico_rss_mb": null
+      }
+    },
+    "forecast_source_sha256": "d8bfc075f5d8cf7592d638c4e7397e9f94cecb6bd15e5b1f683cb709bfa74cea"
+  },
+  "V3": {
+    "matrix_content_sha256": "a99e4193df536ca529297ad69d7ac9be9bccb4c5e00afdd06553f3e66cf529db",
+    "score": {
+      "total": 52.94317103116023,
+      "componentes": {
+        "de_score": 48.81199538638985,
+        "de_direction": 57.3367198838897,
+        "mmd_u": 50.062948508120364,
+        "variogram": 56.935538305771175
+      },
+      "metricas_brutas": {
+        "de_score": -0.0412,
+        "de_direction": 0.2022,
+        "mmd_u": 0.08339,
+        "variogram": 0.003986
+      },
+      "info": {
+        "celulas_previsao": 2000,
+        "celulas_referencia": 1706,
+        "celulas_verdade": 1249,
+        "avisos": [],
+        "pico_rss_mb": null
+      }
+    },
+    "forecast_source_sha256": "486c83c656ff019bbf580874144dbc7d455d41a6021abadf6585176491d64d60"
+  },
+  "ot_local": {
+    "matrix_content_sha256": "ef12ecd8f39961b79d1a21b7dcb523fadc3927f5649d9e57fc13a9b157e34a8b",
+    "score": {
+      "total": 55.89393997375096,
+      "componentes": {
+        "de_score": 49.237929028504944,
+        "de_direction": 60.01063344979492,
+        "mmd_u": 55.206164098292376,
+        "variogram": 60.099750623441395
+      },
+      "metricas_brutas": {
+        "de_score": -0.0262,
+        "de_direction": 0.2636,
+        "mmd_u": 0.06859,
+        "variogram": 0.003518
+      },
+      "info": {
+        "celulas_previsao": 2000,
+        "celulas_referencia": 1706,
+        "celulas_verdade": 1249,
+        "avisos": [],
+        "pico_rss_mb": null
+      }
+    },
+    "forecast_source_sha256": "5ca12eb1ff52a0f2bddd2d7f9b4503941d43c1712f3b23bd3ef08ca722126fcb"
+  },
+  "ot_ridge": {
+    "matrix_content_sha256": "3fa95d99754e16e511cf2566ef446b83e4613473c2eabca7734c9881160540d3",
+    "score": {
+      "total": 56.05317076127023,
+      "componentes": {
+        "de_score": 49.237929028504944,
+        "de_direction": 60.05624809972636,
+        "mmd_u": 55.646515533165406,
+        "variogram": 60.17835909631392
+      },
+      "metricas_brutas": {
+        "de_score": -0.0262,
+        "de_direction": 0.2646,
+        "mmd_u": 0.06745,
+        "variogram": 0.003507
+      },
+      "info": {
+        "celulas_previsao": 2000,
+        "celulas_referencia": 1706,
+        "celulas_verdade": 1249,
+        "avisos": [],
+        "pico_rss_mb": null
+      }
+    },
+    "forecast_source_sha256": "637f5a60bf24147d7daea0121cf972460ff39f5cb7d9c778e8703ff75955842a"
+  }
+}

@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+outputs/
+*.h5ad
+validation/*.log
+!requirements.txt
+!requirements-tested.txt
+!hurdle_gamma_copula/assets/genes.txt
+!evaluation_vendor/VECKIT_LICENSE.txt

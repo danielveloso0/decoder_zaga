@@ -1,0 +1,32 @@
+{
+  "sources": {
+    "src\\virtual_embryo_gen\\all_versions\\submissions\\V0\\forecast_state.npz": "d8bfc075f5d8cf7592d638c4e7397e9f94cecb6bd15e5b1f683cb709bfa74cea",
+    "src\\virtual_embryo_gen\\all_versions\\submissions\\V3\\forecast_state.npz": "486c83c656ff019bbf580874144dbc7d455d41a6021abadf6585176491d64d60",
+    "src\\virtual_embryo_gen\\latent_transport\\submissions\\ot_local\\forecast_state.npz": "5ca12eb1ff52a0f2bddd2d7f9b4503941d43c1712f3b23bd3ef08ca722126fcb",
+    "src\\virtual_embryo_gen\\latent_transport\\submissions\\ot_ridge\\forecast_state.npz": "637f5a60bf24147d7daea0121cf972460ff39f5cb7d9c778e8703ff75955842a",
+    "src\\virtual_embryo_gen\\decoder_hurdle\\model.py": "2b614ba5b4dd4d7b4008dad3d607fb0adfa6a5823679477c862951c3675e87f8",
+    "src\\virtual_embryo_gen\\decoder_copula\\copula.py": "092253eb2d4c0fc4a9a494a5ceb28ca8bd30953d63a6a012353846a0dc6f5fac",
+    "src\\virtual_embryo_gen\\leaderboard_local\\vendor\\score_local.py": "ce5bc6a2500df816c6b46034453527b407309edcc3dba2b435040d2742efda10",
+    "src\\metrics\\veckit\\veckit\\common\\core_metrics.py": "e06dc84ecd8723ecacb1f31a0f4deb9a8722d37ff90193a7af05e2405fefb5e9",
+    "src\\metrics\\veckit\\veckit\\common\\__init__.py": "0ffbced9ff2c7f814e97830f06b7b897a94c01f67789050d7788f67bbf5ea1e4",
+    "src\\metrics\\veckit\\veckit\\LICENSE": "52085916088697d21cae07ab3f499d90bf78135096aa890a3d48c8fa11af0ced",
+    "src\\virtual_embryo_gen\\representation\\submissions\\current_v0_d32_seed0\\model.pt": "cdc4e8102a7228bd9b3115819c0031d240fdf5ad941016c7080799fd807d8daa",
+    "src\\virtual_embryo_gen\\representation\\submissions\\current_v0_d32_seed0\\generation_state.npz": "c462d88fdab75636414e4101ba1902fe1b187417d6b42240a3243cb9092c7fe0"
+  },
+  "original_weights_sha256": "cdc4e8102a7228bd9b3115819c0031d240fdf5ad941016c7080799fd807d8daa",
+  "portable_weights_sha256": "1c169ac823fb60c4c01d9c9604fb784a948d9d33c973129fa1e9e93f3badbfff",
+  "same_state_tensors": true,
+  "training": false,
+  "training_cells": {
+    "E85": 2048,
+    "E95": 2048
+  },
+  "vae_validation_cells_per_stage": 128,
+  "copula_training_cells": 512,
+  "best_epoch": 27,
+  "raw_training_files_included": false,
+  "target_E105_included": false,
+  "cell_ids_included": false,
+  "derived_E95_embeddings_included": true,
+  "note": "Frozen reference forecasts were created in the research pipeline, not recomputed by this package. Configured latent prior is NOT standard-normal sampling for forecasts."
+}
