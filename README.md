@@ -42,8 +42,7 @@ Referências históricas esperadas: V0 **51,5864**, V3 **52,9432**, OT local **5
 
 Os scripts recusam sobrescrever arquivos. Escolha outro caminho para repetir. Nenhuma execução faz upload.
 
-## Usar o encoder e o decoder no projeto do seu amigo
-
+## Usar o encoder e o decoder 
 ```python
 from hurdle_gamma_copula import PretrainedGenerator
 
